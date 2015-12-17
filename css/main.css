@@ -1,0 +1,46 @@
+body {
+	margin: 2rem 5rem;
+	background-color: #e2e2e2;
+}
+
+.container {
+	color: #778899;
+	background-color: #FFF8DC;
+	border: 5px double #2F4F4F;
+	margin: 5em auto;
+}
+
+.head {
+	margin: 5em auto;
+	text-align: center;
+}
+
+h1 {
+	color: #2F4F4F;
+	font-size: 62px;
+}
+
+.forms {
+	margin: 5em 10em;
+}
+
+button {
+	margin-top: 15px;
+	background-color: #9ACD32;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.remove {
+	background-color: #FF6347;
+	color: #fff;
+	margin: 0 0 5em 0;
+	border-radius: 5px;
+}
+
+.output {
+	background-color: #e2e2e2;
+	border: 2px solid #e2e2e2;
+	border-radius: 5px;
+	width: 200px;
+}

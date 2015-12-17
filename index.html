@@ -3,27 +3,50 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Meal Calculator App</title>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	 <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<h1>Meal Calculator*</h1>
-	<p>*8% tax and 20% tip</p>
-	<form class="diner">
-	 <h3>
-	 	Name:<br>
-	  	<input type="text" class="name" name="first-name">
-	 </h3>
-	 
-	  	Dish:<br>
-	  	<input type="text" class="dish" name="dinner-item">
-	  	<br>
-	  	Price:<br>
-	  	<input type="text" class="cost" name="cost-of-item">
-	  	<br>
-	  	<button type="submit">Submit</button>
-	</form>
+	<div class="container">
+		<div class="head">
+			<h1>Meal Calculator*</h1>
+			<p>*8% tax and 20% tip</p>
+		</div>
 
-	<p class="output"></p>
+		<div class="forms">
+			<form class="diner">
+			 <h3>
+			 	Name:<br>
+			  	<input type="text" class="name" name="first-name">
+			 </h3>
+			 <button>Submit Name</button>
+			 </form>
+		  
+		 
 
+			<form class="dish-price">
+			 	Person:<br>
+				<select></select><br>
+			  	Dish:<br>
+			  	<input type="text" class="dish" name="dinner-item">
+			  	<br>
+			  	Price:<br>
+			  	<input type="text" class="cost" name="cost-of-item">
+			  	<br>
+			  	<button type="submit">Submit Dish</button>
+			</form>
+		</div>
+
+		<button class="remove">Remove Name</button>
+
+		<div class="output">
+			<div class="dishes"></div>
+		</div>
+	</div>
+
+
+	  
 	 
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.js"></script>
 <script src="js/app.js" type="text/javascript"></script>
